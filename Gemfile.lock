@@ -83,6 +83,8 @@ GEM
       haml (~> 3.0)
       railties (~> 3.0)
     i18n (0.4.2)
+    jnunemaker-validatable (1.8.4)
+      activesupport (>= 2.3.4)
     json (1.4.6)
     json_pure (1.4.6)
     mail (2.2.9)
@@ -91,6 +93,14 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.16)
+    mm-devise (1.1.1)
+      bcrypt-ruby (~> 2.1.2)
+      bson_ext (>= 1.0.4)
+      devise (>= 1.1.1)
+      jnunemaker-validatable (>= 1.8.4)
+      mongo_mapper (>= 0.8.2)
+      rails3-generators (>= 0.12.1)
+      warden (~> 0.10.7)
     mongo (1.1.1)
       bson (>= 1.1.1)
     nokogiri (1.4.3.1)
@@ -110,6 +120,7 @@ GEM
       activesupport (= 3.0.1)
       bundler (~> 1.0.0)
       railties (= 3.0.1)
+    rails3-generators (0.14.0)
     railties (3.0.1)
       actionpack (= 3.0.1)
       activesupport (= 3.0.1)
@@ -154,6 +165,7 @@ DEPENDENCIES
   devise
   haml (>= 3.0.0)
   haml-rails
+  mm-devise
   mongo_mapper!
   rails (= 3.0.1)
   rspec-rails (>= 2.0.1)

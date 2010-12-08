@@ -165,7 +165,9 @@ DEPENDENCIES
   devise
   haml (>= 3.0.0)
   haml-rails
+  jnunemaker-validatable
   mm-devise
   mongo_mapper!
   rails (= 3.0.1)
+  rails3-generators
   rspec-rails (>= 2.0.1)
